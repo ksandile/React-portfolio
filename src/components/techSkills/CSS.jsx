@@ -1,13 +1,22 @@
-import React from 'react';
+import React, { useState } from 'react';
+import '../../style.css';
 
 const CSS = () => {
+  // State to track whether the section is open or closed
+  const [isOpen, setIsOpen] = useState(true);
+
+  // Toggle the section visibility
+  const closeSection = () => {
+    setIsOpen(false);
+  };
   return (
+    isOpen && (
     <section className="CSS" id="css">
       <div className="CSS-container">
         <div className="css-header">
           <p>CSS</p>
         </div>
-        <button className="close-cssbtn" id="closecss">✖️</button>
+        <button className="close-cssbtn" id="closecss" onClick={closeSection}>✖️</button>
         <div className="css-content">
           <p>
             Throughout my journey learning CSS, I have gained an understanding of how to style web pages effectively...
@@ -21,6 +30,7 @@ const CSS = () => {
         </div>
       </div>
     </section>
+    )
   );
 };
 

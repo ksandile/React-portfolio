@@ -60,14 +60,14 @@ const Header = () => {
             <i class="fa-solid fa-microchip"></i>Tech Skills
             </Link>
             <div className="dropdown-content">
-              <Link to="#html">HTML</Link>
-              <Link to="#css">CSS</Link>
-              <Link to="#javascript">JavaScript</Link>
-              <Link to="#react">React.Js</Link>
-              <Link to="#node">Node.Js</Link>
-              <Link to="#python">Python</Link>
-              <Link to="#java">Java</Link>
-              <Link to="#sql">SQL</Link>
+              <Link to="html">HTML</Link>
+              <Link to="css">CSS</Link>
+              <Link to="javascript">JavaScript</Link>
+              <Link to="react">React.Js</Link>
+              <Link to="node">Node.Js</Link>
+              <Link to="python">Python</Link>
+              <Link to="java">Java</Link>
+              <Link to="sql">SQL</Link>
             </div>
           </li>
 

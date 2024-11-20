@@ -8,6 +8,8 @@ import Projects from './components/Projects';
 import SoftwareDevProjects from "./components/SoftwareDevProjects";
 import DataAnalystProjects from "./components/DataAnalystProjects";
 import ContactMe from "./components/ContactMe";
+import HtmlTech from "./components/techSkills/HTML";
+import CssTech from "./components/techSkills/CSS";
 // import './style.css';
 
 const App = () => {
@@ -39,6 +41,8 @@ const App = () => {
           <Route path="/softwareDevProjects" element={<SoftwareDevProjects />} />
           <Route path="/dataAnalystProjects" element={<DataAnalystProjects />} />
           <Route path="/contactMe" element={<ContactMe />} />
+          <Route path="/HTML" element={<HtmlTech />} />
+          <Route path="/CSS" element={<CssTech />} />
         </Routes>
       </div>
     </Router>
