@@ -1,13 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 const JavaScript = () => {
+  // State to track whether the section is open or closed
+  const [isOpen, setIsOpen] = useState(true);
+  // Toggle the section visibility
+  const closeSection = () => {
+    setIsOpen(false);
+  };
   return (
+    isOpen && (
     <section className="JavaScript" id="javascript">
       <div className="JavaScript-container">
         <div className="js-header">
           <p>JavaScript</p>
         </div>
-        <button className="close-jsbtn" id="closejs">✖️</button>
+        <button className="close-jsbtn" id="closejs" onClick={closeSection}>✖️</button>
         <div className="js-content">
           <p>
             During my journey learning JavaScript, I have gained a solid understanding of how to use JavaScript for web development...
@@ -21,6 +28,7 @@ const JavaScript = () => {
         </div>
       </div>
     </section>
+    )
   );
 };
 

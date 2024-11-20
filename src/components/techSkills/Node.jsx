@@ -1,13 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 
 const NodeTech = () => {
+    // State to track whether the section is open or closed
+    const [isOpen, setIsOpen] = useState(true);
+    // Toggle the section visibility
+    const closeSection = () => {
+        setIsOpen(false);
+    };
     return (
+        isOpen && (
         <section className="Node" id="node">
             <div className="Node-container">
                 <div className="node-header">
                     <p>Node.js</p>
                 </div>
-                <button className="close-nodebtn" id="closenode">✖️</button>
+                <button className="close-nodebtn" id="closenode" onClick={closeSection}>✖️</button>
                 <div className="node-content">
                     <p>
                         During my journey learning Node.js, I have gained a solid understanding of how to use Node.js for server-side development. 
@@ -23,6 +30,7 @@ const NodeTech = () => {
                 </div>
             </div>
         </section>
+        )
     );
 };
 

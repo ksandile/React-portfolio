@@ -10,6 +10,8 @@ import DataAnalystProjects from "./components/DataAnalystProjects";
 import ContactMe from "./components/ContactMe";
 import HtmlTech from "./components/techSkills/HTML";
 import CssTech from "./components/techSkills/CSS";
+import JavaTech from "./components/techSkills/Java";
+import JavaScriptTech from "./components/techSkills/JavaScript";
 // import './style.css';
 
 const App = () => {
@@ -43,6 +45,8 @@ const App = () => {
           <Route path="/contactMe" element={<ContactMe />} />
           <Route path="/HTML" element={<HtmlTech />} />
           <Route path="/CSS" element={<CssTech />} />
+          <Route path="/Java" element={<JavaTech />} />
+          <Route path="/JavaScript" element={<JavaScriptTech />} />
         </Routes>
       </div>
     </Router>

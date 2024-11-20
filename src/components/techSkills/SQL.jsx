@@ -1,13 +1,20 @@
-import React from "react";
+import React, {useState } from "react";
 
 const SQLTech = () => {
+    // State to track whether the section is open or closed
+    const [isOpen, setIsOpen] = useState(true);
+    // Toggle the section visibility
+    const closeSection = () => {
+        setIsOpen(false);
+    };
     return (
+        isOpen && (
         <section className="SQL" id="sql">
             <div className="SQL-container">
                 <div className="sql-header">
                     <p>SQL</p>
                 </div>
-                <button className="close-sqlbtn" id="closesql">✖️</button>
+                <button className="close-sqlbtn" id="closesql" onClick={closeSection}>✖️</button>
                 <div className="sql-content">
                     <p>
                         Throughout my journey learning SQL, I have developed a strong foundation in managing and querying databases. 
@@ -23,6 +30,7 @@ const SQLTech = () => {
                 </div>
             </div>
         </section>
+        )
     );
 };
 

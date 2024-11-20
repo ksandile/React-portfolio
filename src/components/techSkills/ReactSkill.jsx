@@ -1,13 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 
 const ReactTech = () => {
+    // State to track whether the section is open or closed
+    const [isOpen, setIsOpen] = useState(true);
+    // Toggle the section visibility
+    const closeSection = () => {
+        setIsOpen(false);
+    };
     return (
+        isOpen && (
         <section className="React" id="react">
             <div className="React-container">
                 <div className="react-header">
                     <p>React</p>
                 </div>
-                <button className="close-reactbtn" id="closereact">✖️</button>
+                <button className="close-reactbtn" onClick={closeSection}>✖️</button>
                 <div className="react-content">
                     <p>
                         During my journey learning React, I have gained a solid understanding of building dynamic user interfaces with React components. 
@@ -23,6 +30,7 @@ const ReactTech = () => {
                 </div>
             </div>
         </section>
+        )
     );
 };
 
