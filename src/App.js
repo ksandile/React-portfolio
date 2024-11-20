@@ -11,7 +11,10 @@ import ContactMe from "./components/ContactMe";
 import HtmlTech from "./components/techSkills/HTML";
 import CssTech from "./components/techSkills/CSS";
 import JavaTech from "./components/techSkills/Java";
-import JavaScriptTech from "./components/techSkills/JavaScript";
+import JavaScript from "./components/techSkills/JavaScript";
+import NodeTech from "./components/techSkills/Node";
+import ReactTech from "./components/techSkills/ReactSkill";
+import SQLTech from './components/techSkills/SQL';
 // import './style.css';
 
 const App = () => {
@@ -46,7 +49,10 @@ const App = () => {
           <Route path="/HTML" element={<HtmlTech />} />
           <Route path="/CSS" element={<CssTech />} />
           <Route path="/Java" element={<JavaTech />} />
-          <Route path="/JavaScript" element={<JavaScriptTech />} />
+          <Route path="/JavaScript" element={<JavaScript />} />
+          <Route path="/Node" element={<NodeTech />} />
+          <Route path="/ReactSkill" element={<ReactTech />} />
+          <Route path="/SQL" element={<SQLTech />} />
         </Routes>
       </div>
     </Router>

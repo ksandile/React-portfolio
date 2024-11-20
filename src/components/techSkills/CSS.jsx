@@ -23,7 +23,7 @@ const CSS = () => {
           </p>
           <p>
             Here is a project I built using CSS: 
-            <a href="https://ksandile.github.io/Sandile-Kitayi-CodeSpace-Cat-Portfolio/CSS/" target="_blank" rel="noopener noreferrer">
+            <a href="https://ksandile.github.io/Animating-Weppage/" target="_blank" rel="noopener noreferrer">
               View my CSS project
             </a>.
           </p>

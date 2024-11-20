@@ -25,7 +25,7 @@ const NodeTech = () => {
                     </p>
                     <p>
                         Here is a project I built using Node.js, showcasing my skills: 
-                        <a href="https://example.com/your-node-project" target="_blank" rel="noopener noreferrer">View my Node.js project</a>.
+                        <a href="https://github.com/ksandile/Rest-API" target="_blank" rel="noopener noreferrer">View my Node.js project</a>.
                     </p>
                 </div>
             </div>

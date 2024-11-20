@@ -21,7 +21,7 @@ const JavaScript = () => {
           </p>
           <p>
             Here is a project I built using JavaScript: 
-            <a href="https://example.com/your-javascript-project" target="_blank" rel="noopener noreferrer">
+            <a href="https://ksandile.github.io/BlackJackGame2/" target="_blank" rel="noopener noreferrer">
               View my JavaScript project
             </a>.
           </p>

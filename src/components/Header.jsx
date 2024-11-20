@@ -45,7 +45,7 @@ const Header = () => {
 
           {/* Dropdown menu for Projects */}
           <li className="dropdown">
-            <Link to="myProjects" className="dropbtn" onClick={toggleMenu}>
+            <Link to="/" className="dropbtn" onClick={toggleMenu}>
             <i class="fa-solid fa-diagram-project"></i>Projects
             </Link>
             <div className="dropdown-content">
@@ -56,18 +56,18 @@ const Header = () => {
 
           {/* Dropdown menu for Tech Skills */}
           <li className="dropdown">
-            <Link to="#techSkills" className="dropbtn" onClick={toggleMenu}>
+            <Link to="/" className="dropbtn" onClick={toggleMenu}>
             <i class="fa-solid fa-microchip"></i>Tech Skills
             </Link>
             <div className="dropdown-content">
-              <Link to="html">HTML</Link>
-              <Link to="css">CSS</Link>
-              <Link to="javascript">JavaScript</Link>
-              <Link to="react">React.Js</Link>
-              <Link to="node">Node.Js</Link>
-              <Link to="python">Python</Link>
-              <Link to="java">Java</Link>
-              <Link to="sql">SQL</Link>
+              <Link to="Html">HTML</Link>
+              <Link to="Css">CSS</Link>
+              <Link to="Javascript">JavaScript</Link>
+              <Link to="ReactSkill">React.Js</Link>
+              <Link to="Node">Node.Js</Link>
+              <Link to="Python">Python</Link>
+              <Link to="Java">Java</Link>
+              <Link to="SQL">SQL</Link>
             </div>
           </li>
 
