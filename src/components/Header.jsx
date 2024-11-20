@@ -29,24 +29,24 @@ const Header = () => {
           {/* Navigation links */}
           <li>
             <Link to="/" onClick={toggleMenu}>
-              Home
+            <i class="fa-solid fa-house"></i>Home
             </Link>
           </li>
           <li>
             <Link to="about" onClick={toggleMenu}>
-              About Me
+            <i class="fa-solid fa-address-card"></i>About Me
             </Link>
           </li>
           <li>
             <Link to="services" onClick={toggleMenu}>
-              My Services
+            <i class="fa-brands fa-servicestack"></i>My Services
             </Link>
           </li>
 
           {/* Dropdown menu for Projects */}
           <li className="dropdown">
             <Link to="myProjects" className="dropbtn" onClick={toggleMenu}>
-              Projects
+            <i class="fa-solid fa-diagram-project"></i>Projects
             </Link>
             <div className="dropdown-content">
               <Link to="/softwareDevProjects">Software Dev Projects</Link>
@@ -57,7 +57,7 @@ const Header = () => {
           {/* Dropdown menu for Tech Skills */}
           <li className="dropdown">
             <Link to="#techSkills" className="dropbtn" onClick={toggleMenu}>
-              Tech Skills
+            <i class="fa-solid fa-microchip"></i>Tech Skills
             </Link>
             <div className="dropdown-content">
               <Link to="#html">HTML</Link>
@@ -74,7 +74,7 @@ const Header = () => {
           {/* Contact Link */}
           <li>
             <Link to="contactMe" onClick={toggleMenu}>
-              Contact
+            <i class="fa-solid fa-address-book"></i>Contact
             </Link>
           </li>
         </ul>

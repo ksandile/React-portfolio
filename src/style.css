@@ -62,8 +62,7 @@ body.menu-open .navbar {
 .navbar a {
     font-size: 1.8rem;
     color: #fff;
-    margin-left: 8rem;
-    gap: 2rem;
+    margin-left: 6rem;
     font-weight: 500;
     transition: 0.3s ease-in-out;
     border-bottom: 3px solid transparent;
@@ -82,7 +81,10 @@ body.menu-open .navbar {
 
 .navbar ul {
     display: flex;
-    gap: 20px;
+}
+
+.navbar i {
+    padding: 5px;
 }
 
 /* Dropdown container */
