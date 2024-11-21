@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom"; // Import useNavigate for navigation
 import "../style.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import sandImage from "../Images/sand.jpg";
@@ -11,6 +12,12 @@ import pythonImg from "../Images/python.jpeg";
 import sqlImg from "../Images/sql.png";
 
 const Home = () => {
+  const navigate = useNavigate(); // Initialize useNavigate hook
+
+  const goToContact = () => {
+    navigate("/contactMe"); // Navigate to the ContactMe page
+  };
+
   return (
     <section className="Home">
       <div className="home">
@@ -43,9 +50,9 @@ const Home = () => {
               <i className="fa-brands fa-facebook"></i>
             </a>
           </div>
-          <a href="#hireMe" className="btn1" id="hireMeBtn">
+          <button onClick={goToContact} className="btn1" id="hireMeBtn">
             Hire Me
-          </a>
+          </button>
           <a
             href="https://docs.google.com/document/d/1Vmky7eL4UUL8e8Mj68rvtwYHvr5eMIjbOkmjq0v0KBg/edit"
             className="btn2"
