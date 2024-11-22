@@ -371,9 +371,11 @@ section {
 @media (max-width: 1600px) {
     .MySkills {
         position: fixed;
-        margin-top: 5.2rem;
-        margin-bottom: 5.2rem;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        margin-left: 2rem;
     }
+    
     .MySkills h1 {
         position: static;
         margin-bottom: 1rem;
@@ -381,7 +383,7 @@ section {
         font-size: 2.5rem;
     }
     .softSkills-Container {
-        position: static;
+        position: fixed;
         margin-top: 5rem;
         margin-bottom: 5rem;
     }
