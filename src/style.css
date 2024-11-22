@@ -930,7 +930,7 @@ section {
 @media (max-width: 991px) {
     header {
         padding: 2rem 3%;
-        height: 70px;
+        height: 60px;
     }
     .home-content {
         margin-top: 20rem;
