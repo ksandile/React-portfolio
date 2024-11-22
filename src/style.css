@@ -713,6 +713,7 @@ section {
 }
 .myProjectHead h2 {
     color: #2196f3;
+    font-size: 4rem;
 }
 
 .myProject {
@@ -741,12 +742,12 @@ section {
 }
 
 .col p {
-    font-size: 20px;
+    font-size: 15px;
     margin-top: 20px;
     color: #fff;
 }
 .col h3 {
-    font-size: 30px;
+    font-size: 20px;
     margin-bottom: 20px;
     margin-top: 0;
     color: #fff;
@@ -755,12 +756,12 @@ section {
 .btn-work {
     display: block;
     margin-top: 20px;
-    margin-left: 14rem;
+    margin-left: 10rem;
     padding: 10px 15px;
     width: 20rem;
     background-color: #3498db;
     color: #fff;
-    font-size: 20px;
+    font-size: 15px;
     border-radius: 25PX;
     text-decoration: none;
     transition: transform 0.3s ease-in-out;
