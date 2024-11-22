@@ -541,7 +541,7 @@ section {
     color: #2196f3;
 }
 .my-services h2 strong {
-    font-size: 4rem;
+    font-size: 3.5rem;
     color: #2196f3;
 }
 .section__title--services strong {
@@ -567,7 +567,7 @@ section {
 
 
 .about-me h2 {
-    font-size: 4rem;
+    font-size: 3.5rem;
     margin-left: 60rem;
     color: #2196f3;
 }
@@ -713,7 +713,7 @@ section {
 }
 .myProjectHead h2 {
     color: #2196f3;
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 .myProject {
@@ -727,6 +727,7 @@ section {
     margin-bottom: 30px;
     background-color: rgb(58, 52, 52); 
     padding: 5px;
+    border-radius: 15px;
     height: 450px;
     box-shadow: 0 0 20px #2196f3; 
      
@@ -762,7 +763,7 @@ section {
     background-color: #3498db;
     color: #fff;
     font-size: 15px;
-    border-radius: 25PX;
+    border-radius: 15PX;
     text-decoration: none;
     transition: transform 0.3s ease-in-out;
 }
