@@ -3,13 +3,7 @@ import { useNavigate } from "react-router-dom"; // Import useNavigate for naviga
 import "../style.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import sandImage from "../Images/sand.jpg";
-// Import the images
-import htmlImg from "../Images/html.png";
-import cssImg from "../Images/css.png";
-import jsImg from "../Images/javascript.png";
-import reactImg from "../Images/react.png";
-import pythonImg from "../Images/python.jpeg";
-import sqlImg from "../Images/sql.png";
+
 
 const Home = () => {
   const navigate = useNavigate(); // Initialize useNavigate hook
