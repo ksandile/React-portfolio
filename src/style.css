@@ -341,9 +341,6 @@ section {
     clear: left;
 }
 
-.softSkills-Container {
-    position: fixed;
-}
 .softSkills-Container h1 {
     position: fixed;
     top: 45rem;
@@ -377,7 +374,7 @@ section {
     }
     
     .MySkills h1 {
-        position: static;
+        position: fixed;
         margin-bottom: 1rem;
         text-align: center;
         font-size: 2.5rem;
@@ -388,13 +385,13 @@ section {
         margin-bottom: 5rem;
     }
     .softSkills-Container h1 {
-        position: static;
+        position: fixed;
         margin-bottom: 1rem;
         text-align: center;
         font-size: 2.5rem;
     }
     .softSkillsP1 p, .softSkillsP2 p {
-        position: static;
+        position: fixed;
         text-align: center;
         font-size: 1.5rem;
     }
