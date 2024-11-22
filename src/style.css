@@ -367,6 +367,7 @@ section {
 /* Responsive Styles */
 @media (max-width: 1600px) {
     .MySkills {
+        display: none;
         position: fixed;
         top: 58rem;
         left: 99rem;
@@ -374,6 +375,7 @@ section {
     
     .MySkills h1 {
         position: fixed;
+        display: none;
         top: 45rem;
         left: 105rem;
         color: #2196f3;
@@ -382,6 +384,7 @@ section {
     }
     .softSkills-Container {
         position: fixed;
+        display: none;
         margin-top: 6rem;
         margin-bottom: 5rem;
     }
