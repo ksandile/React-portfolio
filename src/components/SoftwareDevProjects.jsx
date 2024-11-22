@@ -1,7 +1,7 @@
 import React from "react";
 import "../style.css";
 
-import catCodespace from "../Images/cat-codespace.png";
+import bankSystem from "../Images/bank.png";
 import onlineStore from "../Images/onlinestore.png";
 import blackJack from "../Images/blackjack.jpeg";
 import addToCart from "../Images/AddToCart.jpeg";
@@ -11,12 +11,12 @@ import footerImage from "../Images/cache.png";
 const SoftwareDevProjects = () => {
   const projects = [
     {
-      title: "Cat Portfolio",
-      image: catCodespace,
+      title: "Bank System",
+      image: bankSystem,
       description:
-        "I created a CodeSpace cat portfolio that will showcase the skills of the cat, using HTML and a bit of CSS.",
-      liveLink: "https://ksandile.github.io/Sandile-Kitayi-CodeSpace-Cat-Portfolio/HTML/",
-      codeLink: "https://github.com/ksandile/Sandile-Kitayi-CodeSpace-Cat-Portfolio/tree/main/HTML",
+        "JavaFX-based application that allows an administrator to manage clients and clients to perform banking transactions.",
+      // liveLink: "https://ksandile.github.io/Sandile-Kitayi-CodeSpace-Cat-Portfolio/HTML/",
+      codeLink: "https://github.com/ksandile/bankjava",
     },
     {
       title: "Online Store",

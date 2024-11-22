@@ -32,10 +32,6 @@ const HTML = () => {
               <a href="https://ksandile.github.io/Sandile-Kitayi-CodeSpace-Cat-Portfolio/HTML/" target="_blank" rel="noopener noreferrer">
                 View my HTML project
               </a>.
-              <p>
-              Here is a HTML Certificate:
-              <a href="" target="_blank">View qualfication</a>
-              </p>
             </p>
           </div>
         </div>
