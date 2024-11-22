@@ -622,6 +622,13 @@ section {
     .subtitle {
         margin-left: 20rem;
     }
+
+    .softSkills-Container {
+        position: fixed;
+        top: 52rem;
+        left: 89rem;
+
+    }
 }
 
 /* Medium screens */
