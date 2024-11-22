@@ -60,28 +60,6 @@ const Home = () => {
             Download CV
           </a>
         </div>
-        <div className="MySkills">
-          <h1>Skills</h1>
-          <div className="skillsImgContainer">
-            <div className="skillsImg flex-container">
-              <img src={htmlImg} alt="HTML" />
-              <img src={cssImg} alt="CSS" />
-              <img src={jsImg} alt="JavaScript" />
-              <img src={reactImg} alt="React" />
-              <img src={pythonImg} alt="Python" />
-              <img src={sqlImg} alt="SQL" />
-            </div>
-          </div>
-        </div>
-        <div className="softSkills-Container">
-          <h1>Soft Skills</h1>
-          <div className="softSkillsP1">
-            <p>Communication │ Problem-Solving │ Teamwork</p>
-          </div>
-          <div className="softSkillsP2">
-            <p>Time Management │ Attention to Detail │ Creativity</p>
-          </div>
-        </div>
       </div>
     </section>
   );
