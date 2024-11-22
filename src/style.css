@@ -375,7 +375,7 @@ section {
     
     .MySkills h1 {
         position: fixed;
-        margin-bottom: 5rem;
+        margin-bottom: -5rem;
         text-align: center;
         font-size: 2.5rem;
     }
