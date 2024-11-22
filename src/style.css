@@ -368,7 +368,7 @@ section {
 }
 
 /* Responsive Styles */
-@media (max-width: 1200px) {
+@media (max-width: 1600px) {
     .MySkills {
         position: fixed;
         margin-top: 5.2rem;
