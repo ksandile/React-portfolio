@@ -370,7 +370,7 @@ section {
 /* Responsive Styles */
 @media (max-width: 1200px) {
     .MySkills {
-        position: static;
+        position: fixed;
         margin-top: 5.2rem;
         margin-bottom: 5.2rem;
     }
