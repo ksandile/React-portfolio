@@ -5,8 +5,8 @@ import bankSystem from "../Images/bank.png";
 import onlineStore from "../Images/onlinestore.png";
 import blackJack from "../Images/blackjack.jpeg";
 import addToCart from "../Images/AddToCart.jpeg";
-import animation from "../Images/animation.jpeg";
 import footerImage from "../Images/cache.png";
+import careOnCall from "../Images/careoncall.png";
 
 const SoftwareDevProjects = () => {
   const projects = [
@@ -42,11 +42,11 @@ const SoftwareDevProjects = () => {
       codeLink: "https://github.com/ksandile/Add-To-Cart",
     },
     {
-      title: "Animation Website",
-      image: animation,
-      description: "I created an Animation frontend website.",
-      liveLink: "https://ksandile.github.io/Animating-Weppage/",
-      codeLink: "https://github.com/ksandile/Animating-Weppage",
+      title: "CareOnCall",
+      image: careOnCall,
+      description: "Sort of Uber app, but you will request Car Wash, Garden Maintanance, House Keeping, and Laundry.",
+      liveLink: "https://alle-services2.netlify.app/",
+      codeLink: "https://github.com/ksandile/passengers-app",
     },
     {
       title: "Footer",
